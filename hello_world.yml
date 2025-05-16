@@ -1,5 +1,6 @@
 ---
 - name: Print Hello World
+  hosts: webservers
   tasks:
     - name: Print Hello World message
       ansible.builtin.debug:
